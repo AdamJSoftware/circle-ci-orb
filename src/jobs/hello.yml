@@ -10,5 +10,5 @@ parameters:
     default: "/root/project/collections"
     description: "Hello to whom?"
 steps:
-  - greet:
-      to: << parameters.to >>
+  - pipeline:
+      dir: << parameters.dir >>
