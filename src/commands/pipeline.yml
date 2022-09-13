@@ -2,9 +2,9 @@ description: >
   "run newman pipeline"
 
 parameters: 
-   dir:
-     type: "string"
-      description: "directory of the postman configuration files"
+  dir:
+    type: "string"
+    description: "directory of the postman configuration files"
 steps:
   - run:
       environment:
