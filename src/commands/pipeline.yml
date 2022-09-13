@@ -5,11 +5,11 @@ parameters:
    dir:
      type: "string"
       description: "directory of the postman configuration files"
-  steps:
-    - run:
-        environment:
-          CONFIG_DIR: <<parameters.dir>>
-        name: Newman runner
-        commands: <<include(scripts/greet.sh)>>
+steps:
+  - run:
+      environment:
+        CONFIG_DIR: <<parameters.dir>>
+      name: Newman runner
+      commands: <<include(scripts/greet.sh)>>
 
 
