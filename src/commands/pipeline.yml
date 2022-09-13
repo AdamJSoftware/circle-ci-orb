@@ -1,8 +1,8 @@
 description: >
-  "run newman pipeline"
+  run newman pipeline
 parameters: 
   dir:
-    type: "string"
+    type: string
     description: "directory of the postman configuration files"
 steps:
   - run:
@@ -10,5 +10,3 @@ steps:
         CONFIG_DIR: <<parameters.dir>>
       name: Newman runner
       commands: <<include(scripts/greet.sh)>>
-
-

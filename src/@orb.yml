@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Runs and postman collections with newman against api
+  Runs and postman collections with newman against api. It does more stuff too, trying to max out 64 characters here and not much more to talk about
 # What will your orb allow users to accomplish?
 # Descriptions should be short, simple, and informative.
 
