@@ -1,6 +1,6 @@
 description: >
   run newman pipeline
-parameters: 
+parameters:
   dir:
     type: string
     description: "directory of the postman configuration files"
