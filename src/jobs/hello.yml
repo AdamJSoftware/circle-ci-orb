@@ -5,9 +5,9 @@ description: >
 executor: default
 
 parameters:
-  to:
+  dir:
     type: string
-    default: "World"
+    default: "/root/project/collections"
     description: "Hello to whom?"
 steps:
   - greet:
