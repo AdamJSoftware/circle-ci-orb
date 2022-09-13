@@ -1,2 +1,2 @@
 #!/bin/bash
-node /root
+echo Hello "${PARAM_TO}"

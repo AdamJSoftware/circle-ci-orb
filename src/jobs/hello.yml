@@ -5,10 +5,10 @@ description: >
 executor: default
 
 parameters:
-  dir:
+  to:
     type: string
-    default: "/root/project/collections"
+    default: "World"
     description: "Hello to whom?"
 steps:
-  - pipeline:
-      dir: << parameters.dir >>
+  - greet:
+      to: << parameters.to >>
