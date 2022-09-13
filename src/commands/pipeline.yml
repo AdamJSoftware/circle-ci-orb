@@ -1,6 +1,5 @@
 description: >
   "run newman pipeline"
-
 parameters: 
   dir:
     type: "string"
