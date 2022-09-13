@@ -9,4 +9,4 @@ steps:
       environment:
         CONFIG_DIR: <<parameters.dir>>
       name: Newman runner
-      commands: <<include(scripts/greet.sh)>>
+      command: <<include(scripts/greet.sh)>>
